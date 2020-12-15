@@ -95,6 +95,7 @@
     }
     .card{
         width: 18rem;
+        margin: 10px 0 10px 0;
     }
     .project{
         padding: 4rem 4rem;
