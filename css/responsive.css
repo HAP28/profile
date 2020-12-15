@@ -27,16 +27,8 @@
         width: 13rem;
     }
 }
-@media only screen and (max-width: 1000px){
-    .navbar-toggler i{
-        color: black;
-        background-color: black;
-        display: block;
-      } 
-      .navbar-toggler{
-          background-color: antiquewhite;
-          padding: 10px 10px;
-      }
+@media only screen and (max-width: 1024rem){
+    
     .navbar-brand{
         font-size: 1.5rem!important;
     }
@@ -82,28 +74,13 @@
         font-size: 2rem;
     }
     .project{
-        padding: 4rem 12rem;
-    }
-    .card-project{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        padding: 4rem 0rem;
     }
     .card{
-        width: 15rem;
+        width: 4rem;
     }
 }
-@media only screen and (max-width: 890px){
-    .card{
-        width: 15rem;
-    }
-    .project{
-        padding: 4rem 9rem;
-    }
-}
-@media only screen and (max-width: 725px){
-    .navbar{
-        padding: 10px 2.8rem 10px 2.8rem;
-    }
+@media only screen and (max-width: 768rem){
     .navbar-toggler i{
         color: black;
         background-color: black;
@@ -113,52 +90,14 @@
           background-color: antiquewhite;
           padding: 10px 10px;
       }
-    .navbar-brand{
-        font-size: 1.5rem!important;
-    }
-    .text-heading{
-        font-size: 3rem;
-    }
-    .text-medium{
-        font-size: 2rem;
-    }
-    .text-para{
-        font-size: 1rem;
-    }
-    .navbar{
-        font-size: 0.8rem;
-    }
-    .top{
-        padding: 3rem 1rem;
-    }
-    .banner-img img{
-        width: 20rem;
-    }
-    .banner-img{
-        text-align: center;
-    }
-    .banner-content{
-        text-align: center;
-    }
-    .project{
-        padding: 4rem 10rem;
-    }
-    .card{
-        width: 20rem;
-    }
-    .social-title{
-        font-size: 2rem;
-    }
-}
-@media only screen and (max-width: 600px){
     .navbar{
         padding: 10px 2.8rem 10px 2.8rem;
     }
     .card{
-        width: 20rem;
+        width: 18rem;
     }
     .project{
-        padding: 4rem 7rem;
+        padding: 4rem 4rem;
     }
     .social img{
         padding: 0;
@@ -193,5 +132,29 @@
     }
     .card{
         width: 22rem;
+    }
+}
+@media only screen and (max-width: 450px){
+    .card{
+        width: 20rem;
+    }
+    .project{
+        padding: 4rem 2rem;
+    }
+}
+@media only screen and (max-width: 375px){
+    .card{
+        width: 20rem;
+    }
+    .project{
+        padding: 4rem 1rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .card{
+        width: 17rem;
+    }
+    .project{
+        padding: 4rem 1rem;
     }
 }
