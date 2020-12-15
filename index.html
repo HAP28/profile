@@ -24,6 +24,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/smooth-scroll.js"></script>
 
 </head>
 <body>
@@ -45,16 +46,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Projects</a>
+                      <a class="nav-link" href="#project">Projects</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -113,20 +114,20 @@
          <!-- project section -->
 
             <section class="project" id="project">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 text-center text-medium text-uppercase">
                             <h1 class="project-title">Projects</h1>
                             <p class="text-para">Visit my <a href="https://github.com/HAP28">GitHub</a> profile. Also check my <a href="https://www.linkedin.com/in/harshit-parikh-28b720161/">LinkedIn</a> profile</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row cards">
                         <div class="col-lg-3 col-md-6 col-sm-12 card-project">
                             <div class="card">
                                 <img class="card-img-top" src="./images/trecox.jpeg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">TrecoX</h5>
-                                  <p class="card-text text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam!</p>
+                                  <p class="card-text text-para">TrecoX stands for Treders E connect. We have created this web site to connect wholesalers with company virtually.</p>
                                   <a href="https://hap28.github.io/Trecoxb2bweb/" class="btn button-project">Let's GO>></a>
                                 </div>
                               </div>
@@ -136,7 +137,7 @@
                                 <img class="card-img-top" src="./images/trecox.jpeg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">COVID Tracker</h5>
-                                  <p class="card-text text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam!</p>
+                                  <p class="card-text text-para">It is an android app to track covid data of india which fetch live data of covid active, recovered, death from API</p>
                                   <a href="#" class="btn button-project">Let's GO>></a>
                                 </div>
                               </div>
@@ -146,7 +147,7 @@
                                 <img class="card-img-top" src="./images/trecox.jpeg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Tic Tac Toe</h5>
-                                  <p class="card-text text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam!</p>
+                                  <p class="card-text text-para">It is a beatiful android game which isa based on kotlin.It is already on playstore, Have a look !!</p>
                                   <a href="#" class="btn button-project">Let's GO>></a>
                                 </div>
                               </div>
@@ -156,7 +157,7 @@
                                 <img class="card-img-top" src="./images/trecox.jpeg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Eggs Funda</h5>
-                                  <p class="card-text text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam!</p>
+                                  <p class="card-text text-para">It is a windows game made using pygame module of python in which player have to catch eggs. Have a fun!!</p>
                                   <a href="#" class="btn button-project">Let's GO>></a>
                                 </div>
                               </div>
@@ -221,5 +222,8 @@
         
         <!-- end of main page -->
     </div>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 </html>
