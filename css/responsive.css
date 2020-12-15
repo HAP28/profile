@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1440px){
     .navbar-brand{
         font-size: 1.5rem!important;
     }
@@ -25,6 +25,9 @@
     }
     .card{
         width: 13rem;
+    }
+    .about-data{
+        padding-top: 22px;
     }
 }
 @media only screen and (max-width: 1024rem){
@@ -74,10 +77,10 @@
         font-size: 2rem;
     }
     .project{
-        padding: 4rem 0rem;
+        padding: 3rem;
     }
     .card{
-        width: 4rem;
+
     }
 }
 @media only screen and (max-width: 768rem){
@@ -135,12 +138,12 @@
         width: 22rem;
     }
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 425px){
     .card{
-        width: 20rem;
+        width: 22rem;
     }
     .project{
-        padding: 4rem 2rem;
+        padding: 4rem 1.2rem;
     }
 }
 @media only screen and (max-width: 375px){
@@ -153,9 +156,9 @@
 }
 @media only screen and (max-width: 320px){
     .card{
-        width: 17rem;
+        width: 16rem;
     }
     .project{
-        padding: 4rem 1rem;
+        padding: 4rem 1.2rem;
     }
 }
