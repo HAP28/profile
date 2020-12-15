@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1100px){
+    .navbar-brand{
+        font-size: 1.5rem!important;
+    }
+    .text-heading{
+        font-size: 4rem;
+    }
+    .text-medium{
+        font-size: 2rem;
+    }
+    .text-para{
+        font-size: 1rem;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .top{
+        padding: 3rem 1rem;
+    }
+    .banner-img img{
+        width: 25rem;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .navbar-toggler i{
+        color: black;
+        background-color: black;
+        display: block;
+      } 
+      .navbar-toggler{
+          background-color: antiquewhite;
+          padding: 10px 10px;
+      }
+    .navbar-brand{
+        font-size: 1.5rem!important;
+    }
+    .text-heading{
+        font-size: 4rem;
+    }
+    .text-medium{
+        font-size: 2rem;
+    }
+    .text-para{
+        font-size: 1rem;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .top{
+        padding: 3rem 1rem;
+    }
+    .banner-img img{
+        width: 25rem;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .about{
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    .about img{
+        width: 15rem;
+        /* margin-left: 5rem; */
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    .about-data{
+        text-align: left;
+    }
+    .about-title{
+        letter-spacing: 15px;
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 650px){
+    .navbar{
+        padding: 10px 2.8rem 10px 2.8rem;
+    }
+    .navbar-toggler i{
+        color: black;
+        background-color: black;
+        display: block;
+      } 
+      .navbar-toggler{
+          background-color: antiquewhite;
+          padding: 10px 10px;
+      }
+    .navbar-brand{
+        font-size: 1.5rem!important;
+    }
+    .text-heading{
+        font-size: 3rem;
+    }
+    .text-medium{
+        font-size: 2rem;
+    }
+    .text-para{
+        font-size: 1rem;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .top{
+        padding: 3rem 1rem;
+    }
+    .banner-img img{
+        width: 20rem;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .card{
+        width: 70%;
+        margin: 0 auto 0 auto;
+    }
+    .social-title{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 530px){
+    .navbar{
+        padding: 10px 2.8rem 10px 2.8rem;
+    }
+    .card{
+        width: 300px;
+    }
+    .social img{
+        padding: 0;
+        padding-top: 20px;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .banner-img img{
+        width: 15rem;
+    }
+    .top{
+        padding: 0;
+    }
+    .about-title{
+        font-size: 1.5rem;
+    }
+    .card{
+        width: 90%;
+    }
+    .project-title{
+        font-size: 1.5rem;
+    }
+    .social-title{
+        font-size: 1.5rem;
+    }
+    .social img{
+        width: 40px;
+    }
+}

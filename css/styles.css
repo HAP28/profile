@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 100%;
+	float: left;
+    overflow: hidden;
+}
+
+/* typography */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Langar', cursive;
+    color:#eeeeee;
+}
+.text-heading{
+    font-family: 'Langar', cursive;
+    font-size: 5rem;
+    color: #212B57;
+}
+.text-medium{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3rem;
+    color: #222831;
+}
+.text-para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #222831;
+    line-height: 2;
+}
+
+/* header */
+
+.navbar{
+    width: 100%;
+    text-align: right;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #212B57;
+}
+/* .navbar-collapse{
+    padding: 1rem 2rem 1rem 2rem;
+} */
+.nav-link{
+    margin: 0 1.2rem 0 1.2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #eeeeee;
+}
+.nav-link:hover{
+    color: wheat;
+}
+.navbar-brand:hover{
+    color: wheat;
+}
+
+/* end of header */
+
+ /* section top */
+
+.top{
+    padding: 5rem 1rem;
+}
+.banner-content{
+    padding: 7rem 2rem 0 2rem;
+}
+.banner-img{
+    padding: 7rem 2rem 0 2rem;
+}
+.banner-img img{
+    width: 30rem;
+}
+.button-cv{
+    border: #212B57 solid;
+    color: #222831;
+    font-weight: 500;
+}
+.button-cv:hover{
+    background-color: #212B57;
+    color: white;
+    font-weight: 700;
+}
+
+ /* end section top */
+
+ /* about section */
+
+ .about{
+    padding: 5rem 1rem;
+    background-color: #eeeeee;
+ }
+ .about img{
+     width: 20rem;
+     /* border-radius: 50%; */
+ }
+ .about-title{
+    letter-spacing: 20px;
+}
+ .about-data p{
+     padding-top: 1rem;
+ }
+
+ /* end of about section */
+
+ /* project section */
+
+.project{
+    padding: 5rem 1rem;
+}
+.project-title{
+    letter-spacing: 20px;
+}
+.card-project{
+    padding: 2rem;
+}
+.card-img-top{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+.card{
+    text-align: center;
+    position: relative;
+    border-radius: 5%;
+    background-color: #eeeeee;
+}
+.card:hover{
+    box-shadow: 0px 10px 30px #212B57;
+}
+.card-body{
+    text-align: left;
+    padding-top: 70%;
+}
+.card-title{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.button-project{
+    background-color: #212B57;
+    color: #eeeeee;
+    border: #212B57 solid 2px;
+}
+.button-project:hover{
+    color: #212B57;
+    background-color: #eeeeee;
+    border: #212B57 solid 2px;
+    font-weight: 900;
+}
+ /* end of project section */
+
+/* quote */
+.quote{
+    padding: 10rem 2rem;
+    background-color: #eeeeee;
+    text-align: center;
+}
+.quote-heading{
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-family: 'Caveat', cursive;
+}
+.quote p{
+    padding-right: 9rem;
+    font-weight: 600;
+}
+
+
+
+/* end of quote */
+
+
+
+
+
+ /* social section */
+
+ .social{
+    padding: 5rem 1rem;
+ }
+ .social-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    letter-spacing: 15px;
+ }
+ .social img{
+     width: 5rem;
+     padding: 1rem;
+     transition: 0.5s;
+ }
+ .social-icons a:hover img{
+    transform: translateY(-10px);
+ }
+
+ /* end of social section */
+
+ /* footer */
+
+ .footer{
+    padding: 5rem 1rem 0 1rem;
+    background-color: #222831;
+    color: #eeeeee  ;
+ }
+ .reg{
+    color: white;
+    /* padding-top: 3rem; */
+    padding: 3rem;
+ }
