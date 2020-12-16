@@ -8,6 +8,25 @@
 	float: left;
     overflow: hidden;
 }
+.container-typing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100%; */
+}
+
+/* cursor */
+.txt-type> .txt{
+    border-right: 0.2rem solid #000;
+}
+.txt-type2> .txt{
+    border-right: 0.2rem solid #000;
+}
+
+.txt-type2{
+    font-weight: 900;
+}
+
 
 /* typography */
 .navbar-brand{
@@ -81,7 +100,7 @@
     padding: 5rem 1rem;
 }
 .banner-content{
-    padding: 7rem 2rem 0 2rem;
+    padding: 10rem 2rem 0 2rem;
     text-align: left!important;
 }
 .banner-img{

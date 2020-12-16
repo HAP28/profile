@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- script -->
-    <script src="./js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -73,9 +72,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 banner-content">
-                        <h1 class="text-heading">Hey There 👋 </h1>
-                        <h2 class="text-para">I am Harshit Parikh</h2>
-                        <h2 class="text-para">Full Stack Developer</h2>
+                        <div class="container-typing">
+                          <h1 class="text-heading"><span class="txt-type" data-wait="3000" data-words='["Hey There!","Welcome!!"]'></span> <span class="wave">👋</span> </h1>
+                          <h2 class="text-medium sub-heading">I am <span class="txt-type2" data-wait2="3000" data-words='["Harshit Parikh","Web Developer"]'></span></h2>
+                        </div>
+                        <!-- <h2 class="text-para">Full Stack Developer</h2> -->
                         <a href="./Harshit A. Parikh.pdf" download="cv"><button class="btn button-project">Get CV</button></a>
                     </div>
                     <div class="col-lg-6 col-sm-12 banner-img">
@@ -101,10 +102,10 @@
                             LET ME INTRODUCE MYSELF
                         </h1>
                         <p class="text-para">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium dolore et numquam. Corporis laboriosam provident quia saepe delectus. Iure, explicabo!
+                            I am currently pursuing 8th semester of my bachelors from GTU. I am comfortable with C, C++, Java, Python for competitive programming.
                         </p>
                         <p class="text-para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ducimus, blanditiis similique cumque sint inventore quidem!
+                          I have some experience in android, web and python projects. I am interested to do freelance work.
                         </p>
                      </div>
                  </div>
@@ -224,6 +225,7 @@
         
         <!-- end of main page -->
     </div>
+    <script src="./js/main.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>

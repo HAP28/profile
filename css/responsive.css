@@ -31,7 +31,9 @@
     }
 }
 @media only screen and (max-width: 1024rem){
-    
+    .txt-type{
+        font-size: 3.5rem;
+    }
     .navbar-brand{
         font-size: 1.5rem!important;
     }
@@ -139,6 +141,9 @@
     }
 }
 @media only screen and (max-width: 425px){
+    .txt-type{
+        font-size: 3rem;
+    }
     .card{
         width: 22rem;
     }
@@ -147,6 +152,13 @@
     }
 }
 @media only screen and (max-width: 375px){
+    .txt-type{
+        font-size: 2.4rem;
+        font-weight: 900;
+    }
+    .sub-heading{
+        font-size: 1.5rem;
+    }
     .card{
         width: 20rem;
     }
@@ -160,5 +172,15 @@
     }
     .project{
         padding: 4rem 1.2rem;
+    }
+    .txt-type{
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    .sub-heading{
+        font-size: 1.3rem;
+    }
+    .wave{
+        font-size: 26px;
     }
 }
