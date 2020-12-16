@@ -165,6 +165,9 @@
     .project{
         padding: 4rem 1rem;
     }
+     .wave{
+        font-size: 24px;
+    }
 }
 @media only screen and (max-width: 320px){
     .card{
@@ -181,6 +184,6 @@
         font-size: 1.3rem;
     }
     .wave{
-        font-size: 26px;
+        font-size: 20px;
     }
 }
