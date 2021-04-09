@@ -60,3 +60,16 @@ function init(){
     new TypeWriter(txtElement2,words2,wait2);
 }
 
+const checkbox = document.getElementById('checkbox');
+checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+    $('.container-typing h1').toggleClass("text-heading text-heading-dark");
+    $('.container-typing h2').toggleClass("text-heading text-medium-dark");
+    $('.project-header h1').toggleClass("project-title project-title-dark");
+    $('.project-header p').toggleClass("text-para text-para-dark");
+    $('.social h1').toggleClass("social-title social-title-dark");
+    $('.banner-content button').toggleClass("button-project button-project-dark");
+    $('#footer').css('background-color','#eeeeee');
+    $('#footer').css('color','#292c35');
+});
+
