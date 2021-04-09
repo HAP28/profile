@@ -69,7 +69,7 @@ checkbox.addEventListener('change', () => {
     $('.project-header p').toggleClass("text-para text-para-dark");
     $('.social h1').toggleClass("social-title social-title-dark");
     $('.banner-content button').toggleClass("button-project button-project-dark");
-    $('#footer').css('background-color','#eeeeee');
-    $('#footer').css('color','#292c35');
+    $('#footer').toggleClass("footer footer-dark");
+    
 });
 

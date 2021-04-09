@@ -230,7 +230,7 @@
  .footer{
     padding: 5rem 1rem 0 1rem;
     background-color: #222831;
-    color: #eeeeee  ;
+    color: #eeeeee;
  }
  .reg{
     color: white;
@@ -282,6 +282,11 @@ body.dark{
     color: white;
     font-weight: 700;
     border: #fafafa solid 2.5px;
+}
+.footer-dark{
+    padding: 5rem 1rem 0 1rem;
+    background-color: #eeeeee;
+    color: #222831;
 }
  .checkbox{
      opacity: 0;
