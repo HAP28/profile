@@ -27,6 +27,15 @@
     font-weight: 900;
 }
 
+.company{
+    font-weight: 700;
+    color: #212B57;
+}
+
+.role{
+    font-weight: 700;
+    color: #212B57;
+}
 
 /* typography */
 .navbar-brand{
