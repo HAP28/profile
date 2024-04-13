@@ -52,7 +52,7 @@ function init(){
     const txtElement = document.querySelector('.txt-type');
     const txtElement2 = document.querySelector('.txt-type2');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
-    const words2 = ["Harshit Parikh","Web Developer"];
+    const words2 = ["Harshit Parikh","Software Engineer", "Cyber Security Enthusiast"];
     const wait = txtElement.getAttribute('data-wait');
     const wait2 = 3000;
 
